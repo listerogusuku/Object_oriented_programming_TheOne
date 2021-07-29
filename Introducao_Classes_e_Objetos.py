@@ -35,6 +35,7 @@ print(f"tv tamanho={tv.tamanho} marca={tv.marca}")
 # tv.muda_canal_para_baixo()
 # print(tv.canal)
 
+'''
 class Televisão():
     def __init__(self, min, max):
         self.canal = 2
@@ -57,3 +58,21 @@ print(tv.canal)
 for i in range(0, 120):
     tv.muda_canal_para_baixo()
 print(tv.canal)
+'''
+
+
+class Insper(object): #Construtor
+    def __init__(self):
+        self.Tobogã = True
+        self.ScolarshipProgram = True
+        self.Fundador = 'Claudio Haddad'
+        self.lema = 'Inspirar, Pertencer, Transformar'
+        print('\nSomos o Insper! Seu construtor foi chamado com sucesso!\n')
+    def printInfos(self):
+        print(f'Nome da Universidade: Insper;\nNome do Fundador: {self.Fundador};\nPossui programa de bolsas de estudo?: {self.ScolarshipProgram};')
+        print(f'Possui tobogã?: {self.Tobogã};\nQual o lema?: {self.lema}\n')
+
+
+Insper = Insper() #Chamando meu construtor
+
+Insper.printInfos()
