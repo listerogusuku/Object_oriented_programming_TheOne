@@ -73,6 +73,6 @@ class Insper(object): #Construtor
         print(f'Possui tobogã?: {self.Tobogã};\nQual o lema?: {self.lema}\n')
 
 
-Insper = Insper() #Chamando meu construtor
+# Insper = Insper() #Chamando meu construtor
 
-Insper.printInfos()
+Insper().printInfos()
